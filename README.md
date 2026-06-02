@@ -27,9 +27,9 @@ Bảng dưới đây mô tả các kết nối dây cho dự án:
 | **LCD I2C** | SCL (A5) | Xung nhịp nối tiếp |
 | **LCD I2C** | VCC | 5V |
 | **LCD I2C** | GND | Tiếp địa (Ground) |
-| **Đầu ra 1** | Chân 7 | Chân điều khiển (VD: Bơm/Rơ-le) |
-| **Đầu ra 2** | Chân 8 | Chân điều khiển (VD: LED trạng thái) |
-| **Đầu ra 3** | Chân 9 | Chân điều khiển (VD: LED trạng thái) |
+| **Đầu ra 1** | Chân 7 | Chân điều khiển Relay |
+| **Đầu ra 2** | Chân 8 | Chân LED trạng thái |
+| **Đầu ra 3** | Chân 9 | Chân LED trạng thái |
 
 ## Cách sử dụng
 1. Kết nối các linh kiện theo bảng sơ đồ đấu nối.
