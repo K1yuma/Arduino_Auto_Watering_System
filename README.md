@@ -1,40 +1,41 @@
-# Plant Test - Automatic Plant Watering System
+# Plant Test - Hệ Thống Tưới Cây Tự Động
 
-This project is an Arduino-based automatic plant watering system that monitors soil moisture levels using a soil moisture sensor and displays the status on an I2C LCD.
+Dự án này là một hệ thống tưới cây tự động dựa trên Arduino, giúp theo dõi độ ẩm của đất bằng cảm biến độ ẩm và hiển thị trạng thái trên màn hình LCD I2C.
 
-## Features
-- Real-time soil moisture monitoring.
-- Status display on a 16x2 I2C LCD.
-- Automatic watering control based on moisture thresholds.
+## Tính năng
+- Theo dõi độ ẩm đất theo thời gian thực.
+- Hiển thị trạng thái trên màn hình LCD I2C 16x2.
+- Tự động điều khiển tưới cây dựa trên ngưỡng độ ẩm.
 
-## Components
-- Arduino Uno (or compatible)
-- I2C LCD 16x2 (Address: 0x27)
-- Soil Moisture Sensor
-- Relay Module or Water Pump (connected to digital pins)
-- Jumper wires
+## Linh kiện
+- Arduino Uno
+- Màn hình LCD I2C 16x2 (Địa chỉ: 0x27)
+- Cảm biến độ ẩm đất
+- Module Relay điều khiển máy bơm nước
+- Dây nối
 
-## Project Schematic
-Add your project schematic image or link here:
-![Project Schematic](path/to/your/schematic.png)
+## Sơ đồ nguyên lý (Schematic)
+Thêm hình ảnh hoặc liên kết sơ đồ nguyên lý của bạn tại đây:
+![Sơ đồ nguyên lý](<img width="3000" height="2146" alt="circuit_image" src="https://github.com/user-attachments/assets/84bf8474-710d-45bb-b3bd-9b9a7a443bb0" />
+)
 
-## Wiring
-The following table describes the wiring connections for the project:
+## Sơ đồ đấu nối (Wiring)
+Bảng dưới đây mô tả các kết nối dây cho dự án:
 
-| Component | Arduino Pin | Description |
-|-----------|-------------|-------------|
-| **Soil Sensor** | A0 | Analog Output |
-| **I2C LCD** | SDA (A4) | Serial Data |
-| **I2C LCD** | SCL (A5) | Serial Clock |
-| **I2C LCD** | VCC | 5V |
-| **I2C LCD** | GND | Ground |
-| **Output 1** | Pin 7 | Control Pin (e.g., Pump/Relay) |
-| **Output 2** | Pin 8 | Control Pin (e.g., Status LED) |
-| **Output 3** | Pin 9 | Control Pin (e.g., Status LED) |
+| Linh kiện | Chân Arduino | Mô tả |
+|-----------|--------------|-------|
+| **Cảm biến đất** | A0 | Đầu ra Analog |
+| **LCD I2C** | SDA (A4) | Dữ liệu nối tiếp |
+| **LCD I2C** | SCL (A5) | Xung nhịp nối tiếp |
+| **LCD I2C** | VCC | 5V |
+| **LCD I2C** | GND | Tiếp địa (Ground) |
+| **Đầu ra 1** | Chân 7 | Chân điều khiển (VD: Bơm/Rơ-le) |
+| **Đầu ra 2** | Chân 8 | Chân điều khiển (VD: LED trạng thái) |
+| **Đầu ra 3** | Chân 9 | Chân điều khiển (VD: LED trạng thái) |
 
-## Usage
-1. Connect the components as per the wiring table.
-2. Open `plant_test.ino` in the Arduino IDE.
-3. Install the `LiquidCrystal_I2C` library.
-4. Upload the code to your Arduino.
-5. Monitor the LCD for moisture levels and watering status.
+## Cách sử dụng
+1. Kết nối các linh kiện theo bảng sơ đồ đấu nối.
+2. Mở file `plant_test.ino` trong Arduino IDE.
+3. Cài đặt thư viện `LiquidCrystal_I2C`.
+4. Nạp code (Upload) vào Arduino của bạn.
+5. Theo dõi màn hình LCD để biết mức độ ẩm và trạng thái tưới.
