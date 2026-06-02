@@ -16,8 +16,7 @@ Dự án này là một hệ thống tưới cây tự động dựa trên Ardui
 
 ## Sơ đồ nguyên lý (Schematic)
 Thêm hình ảnh hoặc liên kết sơ đồ nguyên lý của bạn tại đây:
-![Sơ đồ nguyên lý](<img width="3000" height="2146" alt="circuit_image" src="https://github.com/user-attachments/assets/d9c28d40-5d4c-4265-8e0c-83e78b0ca3f5" />
-)
+<img width="3000" height="2146" alt="circuit_image" src="https://github.com/user-attachments/assets/d9c28d40-5d4c-4265-8e0c-83e78b0ca3f5" />
 
 ## Sơ đồ đấu nối (Wiring)
 Bảng dưới đây mô tả các kết nối dây cho dự án:
