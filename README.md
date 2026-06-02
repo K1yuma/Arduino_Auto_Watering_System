@@ -1,4 +1,4 @@
-## Hệ Thống Tưới Cây Tự Động
+# Hệ Thống Tưới Cây Tự Động
 
 Dự án này là một hệ thống tưới cây tự động dựa trên Arduino, giúp theo dõi độ ẩm của đất bằng cảm biến độ ẩm và hiển thị trạng thái trên màn hình LCD I2C.
 
